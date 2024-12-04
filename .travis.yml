@@ -1,7 +1,7 @@
 jobs:
   include:
     - os: freebsd
-      language: java
+      language: python
       arch: amd64
       script:
         - javac hello_world.java
